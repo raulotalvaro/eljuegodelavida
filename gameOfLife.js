@@ -124,6 +124,10 @@ return;
  function parar(){
   location.reload();
  }
+ function paso(){
+  nextGeneration();
+  drawGrid();
+ }
 
 
 // Dibuja la cuadrícula inicial
